@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ab02ff77, #d68f1e);
+    background-image: url(./FONDO.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgb(214, 216, 255);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(185, 199, 237, 0.2);
+    overflow: hidden;
+}
+
+.login-panel {
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.login-header h1 {
+    font-size: 24px;
+    color: #ddc7b2;
+    font-weight: 600;
+    margin: 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ac80c2;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.verification-code {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #9b3bae;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-button {
+    background-color: #ea6709;
+    color: #ddc5c5;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+.login-button:hover {
+    background-color: #7c28ad;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #ef9d4a;
+    font-size: 14px;
+}
+
+.illustration {
+    width: 50%;
+    background: url('https://via.placeholder.com/600x400') no-repeat center center;
+    background-size: cover;
+    left: 100%;
+}
